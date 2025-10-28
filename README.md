@@ -21,14 +21,14 @@ FlashAttention using pure **Triton** (no C++ or CUDA bindings).
 
 ```bash
 flash-attn-learn/
-├── flash.py            # Your Triton kernel
-├── benchmark.py        # Compare runtime with PyTorch
+├── flash.py 
+├── benchmark.py 
 ├── README.md
 ├── requirements.txt
 └── LICENSE
 
----
 
+```
 ## Usage
 ```bash
 pip install -r requirements.txt
