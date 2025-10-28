@@ -18,9 +18,11 @@ FlashAttention using pure **Triton** (no C++ or CUDA bindings).
 ---
 
 ## Folder Structure
+
+```bash
 flash-attn-learn/
-├── flash.py # Your Triton kernel 
-├── benchmark.py # Compare runtime with PyTorch
+├── flash.py            # Your Triton kernel
+├── benchmark.py        # Compare runtime with PyTorch
 ├── README.md
 ├── requirements.txt
 └── LICENSE
